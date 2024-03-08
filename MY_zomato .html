@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		
+		<!-- Zomato logo in title tab -->
+		<link 
+		rel = "icon"
+		href = "C:\Users\vt0328\Desktop\FULL STACK PRACTICE/download.png"; 
+		/>
+		
+		<!-- fontawesome.com icons -->
+		<link
+		rel = "stylesheet"
+		href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+		integrity = "sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+		crossorigin = "anonymous"
+		referrerpolicy = "no-referrer"
+		/>
+		
+		<!-- Poppins font by google fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+		rel="stylesheet"
+		href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+		/>
+		
+		<!-- Linking CSS file -->
+		<link rel = "stylesheet" href = "C:\Users\vt0328\Desktop\FULL STACK PRACTICE/styles.css" />
+		<title>Zomato Landing Page Clone</title>
+	</head>
+	<body>
+		<!-- This is for hero section -->
+		<section class = "hero-section">
+			<header>
+				<nav class = "navbar">
+					<a href = "#">Get the App</a>
+					<div class = "navbar-menu-container">
+						<a href = "#" class = "link" >Investor Relations</a>
+						<a href = "#" class = "link" >Add Restaurants</a>
+						<a href = "#" class = "link" >Login</a>
+						<a href = "#" class = "link" >Sign Up</a>
+						<a href = "#" class = "user-icon"><i class="fa-solid fa-user"></i></a>
+					</div>
+				</nav>
+			</header>
+			<div class = "hero-section-container">
+				<img src = "C:\Users\vt0328\Desktop\FULL STACK PRACTICE/download.png" alt = "Zomato Logo" class = "hero-section-logo" />
+				<h1 class = "hero-section-heading">Discover the best food & drinks in Pune</h1>
+				<div class = "hero-section-container-input">
+					<i class="fa-sharp fa-solid fa-location-dot" id = "location-icon"></i>
+					<select class = "hero-section-input-location">
+						<option>Pune</option>
+						<option>Mumbai</option>
+						<option>Banglore</option>
+						<option>Delhi</option>
+					</select>
+					<i class="fa-solid fa-magnifying-glass" id = "search-icon"></i>
+					<input class = "hero-section-input-search" type = "text" placeholder = "Search for a restaurant, cuisine or a dish" />
+				</div>
+			</div>
+		</section>
+		<!-- This is for cards that zomato offer -->
+		<section class = "container-cards">
+		
+			 <div class = "we-offer-cards">
+				<img src = "C:\Users\vt0328\Desktop\FULL STACK PRACTICE/item1.png" alt = "card1 image"/>
+				<div class = "we-offer-cards-content">
+					<h2>Order Online</h2>
+					<p>Stay home and order to your doorstep</p>
+				</div>
+			 </div>
+			 
+			 <div class = "we-offer-cards">
+				<img src = "C:\Users\vt0328\Desktop\FULL STACK PRACTICE/item2.png" alt = "card1 image"/>
+				<div class = "we-offer-cards-content">
+					<h2>Dining</h2>
+					<p>Visit amazing restaurants and cafes</p>
+				</div>
+			 </div>
+			 
+			 <div class = "we-offer-cards">
+				<img src = "C:\Users\vt0328\Desktop\FULL STACK PRACTICE/item3.png" alt = "card1 image"/>
+				<div class = "we-offer-cards-content">
+					<h2>Nightlife and clubs</h2>
+					<p>Spend leisure time enjoying the nightlife of Pune</p>
+				</div>
+			 </div>
+			 
+			 <div class = "we-offer-cards">
+				<img src = "C:\Users\vt0328\Desktop\FULL STACK PRACTICE/item4.png" alt = "card1 image"/>
+				<div class = "we-offer-cards-content">
+					<h2>Takeaway services</h2>
+					<p>We ensure timely delivery to our customers</p>
+				</div>
+			 </div>
+			 
+		</section>
+		<!-- This is for collection section -->
+		<section class = "container-collections">
+			<h1>Collections</h1>
+			<div class = "sub-heading-container">
+				<span>Explore curated lists of top restaurants, cafes, pubs in Pune based on trends</span>
+				<span id = "span">All collections in Pune</span>
+			</div>
+			<div class = "collections-cards-container">
+					
+				<div class = "cards card1">
+					<div class = "overlay"></div>
+					<div class = "collections-content">
+						<h4>Live Cricket Screening</h4>
+						<span>56 places</span>
+					</div>
+				</div>
+				
+				<div class = "cards card2">
+					<div class = "overlay"></div>
+					<div class = "collections-content">
+						<h4>Koregaon Park specials</h4>
+						<span>12 places</span>
+					</div>
+				</div>
+				
+				<div class = "cards card3">
+					<div class = "overlay"></div>
+					<div class = "collections-content">
+						<h4>Newly opened Restaurants</h4>
+						<span>36 places</span>
+					</div>
+				</div>
+				
+				<div class = "cards card4">
+					<div class = "overlay"></div>
+					<div class = "collections-content">
+						<h4>Trending Pubs Near me</h4>
+						<span>16 places</span>
+					</div>
+				</div>
+				
+			</div>
+		</section>
+		<!-- This is for get the App section -->
+		<section class = "container-get-the-app">
+			<div class = "semi-container">
+				<div class = "semi-container-left">
+					<img src = "C:\Users\vt0328\Desktop\FULL STACK PRACTICE/mobileBanner.png" alt = "mobile image"/>
+				</div>
+				<div class = "semi-container-right">
+					<h1>Get the Zomato App</h1>
+					<p>We will send you a link, open it and download the app now</p>
+					<div class = "radio-button-container">
+						<div>
+							<input type = "radio" id = "email" name = "downloadApp"/>
+							<label for = "email">Email</label>
+						</div>
+						<div>
+							<input type = "radio" id = "phone" name = "downloadApp"/>
+							<label for = "phone">Phone</label>
+						</div>
+					</div>
+					<div class = "input-container">
+						<input type = "text" placeholder = "Email/Phone"/>
+						<button>Share App Link</button>
+					</div>
+					<div class = "download-app-container">
+						<h5>Download App From</h5>
+						<div>
+							<img src = "C:\Users\vt0328\Desktop\FULL STACK PRACTICE/appleStore.png" alt = "Apple store"/>
+							<img src = "C:\Users\vt0328\Desktop\FULL STACK PRACTICE/playStore.png" alt = "Play store"/>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- This is for explore places section -->
+		<section class = "explore-places-container">
+			<div class = "sub-container">
+				<div>
+					<h1>Explore Options Near Me</h1>
+					<span>Explore the restaurants and cuisines across various cities under our service</span>
+				</div>
+				<div class = "drop-down-container">
+					<select>
+						<option>Popular Cuisines</option>
+						<option>Top Restaurants</option>
+						<option>Popular Cities</option>
+					</select>
+				</div>
+			</div>
+		</section>
+		<!-- This is for footer section -->
+		<footer class = "footer-container">
+			<div class = "footer-section1">
+				<img src = "C:\Users\vt0328\Desktop\FULL STACK PRACTICE/logo.png" alt = "zomato logo"/>
+				<div class = "section1-button-container">
+					<button>
+						<img src = "C:\Users\vt0328\Desktop\FULL STACK PRACTICE/IndianFlag.png" alt = "Indian Flag"/>
+						<select>
+							<option>India</option>
+							<option>UK</option>
+							<option>USA</option>
+						</select>
+					</button>
+				</div>
+			</div>
+			<div class = "footer-section2">
+				<div class = "footer-links-container">
+					<a href = "#">About Us</a>
+					<a href = "#">Culture</a>
+					<a href = "#">Blog</a>
+					<a href = "#">Careers</a>
+					<a href = "#">Contact</a>
+				</div>
+				<div class = "footer-social-links-container">
+					<a href = "#"><i class="fab fa-facebook-f"></i></a>
+					<a href = "#"><i class="fab fa-twitter"></i></a>
+					<a href = "#"><i class="fab fa-instagram"></i></a>
+					<a href = "#"><i class="fab fa-linkedin-in"></i></a>
+				</div>
+			</div>
+			<div class = "footer-section3">
+				<span>&#169; 2024 Zomato. All rights reserved.</span>
+			</div>
+		</footer>
+	</body>
+</html>
